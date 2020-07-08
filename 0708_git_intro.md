@@ -23,10 +23,20 @@
 # github
 
 1. 원격저장소(remote repository) 생성
-2. 로컬 리포 => 리모트 리포 연결하기 `$ git
+
+2. local repo => remote repo 연결하기 `$ git
    remote add origin <URL>`
+
 3. 로컬 커밋들을 리모트로 보내기 `$
    git push origin master`
+
 4. `$ git push == git push origin
    master`로 단축 명령하기 `$ git push
    -u origin master`
+
+5. 다른 컴퓨터에서 remote repo **최초로** 받아오기
+
+   `$ git clone <URL>`
+
+6. 이후 remote repo 변경사항을 local repo에서
+   반영하기 `$ git pull`
