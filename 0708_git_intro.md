@@ -7,12 +7,15 @@
 
 2. 서명 설정
 
-   1. $ git config --global user.name 
+   1. `$ git config --global user.name `
 
-      "name"
+      `"name"`
 
-   2. $ git config --global user.email 
+   2. `$ git config --global user.email `
 
-      "email@mail"
+      `"email@mail"`
 
-3. 
+3. 리포의 상태 보기 `$ git status`
+4. ???? `$ git add`
+5. ???? `$ git commit`
+6. 로그 보기 `$ git log`
