@@ -2,7 +2,8 @@
 
 ## local git
 
-1. 초기화 $ git init
+1. git 다운로드 및 설치
+2. 초기화 $ git init
    1. 실제로는 .git/폴더가 생성됨
    2. 버전관리가 시작됨
    3. 리포(repository)라고 부름
@@ -19,6 +20,13 @@
    2. 내 위치(폴더) 다 올리기 `$ git add .`
 5. snapshot(사진) 찍기 `$ git commit`
 6. 로그(사진첩) 보기 `$ git log`
+
+# 집 커퓨터 세팅
+
+1. git 다운로드 및 설정
+2.  `$ git config -- global ....`
+
+3. `$ git clone <URL>`
 
 # github
 
